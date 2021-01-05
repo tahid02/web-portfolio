@@ -98,4 +98,38 @@ section{
 /* footer part  */
 footer{
     text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-width:680px){
+    
+
+   
+    .half-width{
+        width: 95%;
+        height: auto;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    .half-width img {
+        width: 50%;
+
+    }
+    .link-button{
+        margin-left: 8%;
+        margin-bottom: 7%;
+    }
+    .dream-area .half-width .link-button{
+        margin-left: 8%;
+    }
+    .experience-area .half-width{
+        margin-bottom: 4%;
+    }
+}
+@media (max-width:480px){
+    .half-width{
+        width: 100%;
+        height: auto;
+    }
 }
