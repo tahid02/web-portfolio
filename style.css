@@ -143,6 +143,9 @@ footer{
         width: 100%;
         height: auto;
     }
+    .dream-area .media-notvisible{
+        display: none;
+     }
     .link-button{
         margin-left: -10%;
         margin-bottom: 7%;
@@ -156,6 +159,9 @@ footer{
         margin-top: 4%;
     }
     @media (max-width:190px){
+        .dream-area .media-notvisible{
+            display: none;
+         }
         footer{
             position: relative;
             height: auto;
