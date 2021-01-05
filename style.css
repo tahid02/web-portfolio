@@ -5,6 +5,9 @@ p{
     color: dimgray;
     font-size: large;
 }
+h3{
+    text-transform: capitalize;
+}
     /* top section styling start*/
 .half-width{
     width: 40%;
@@ -29,7 +32,7 @@ section{
     font-size: 50px;
 }
 .name{
-    color: yellow;
+    color: orange;
 }
 
 
@@ -59,4 +62,40 @@ section{
    background-position-y: bottom;
     background-size: 9%;
     
+}
+
+
+/* third section styling start  */
+.exp{
+    margin-left: 5%;
+    font-size: 50px;
+}
+.experience-area{
+    margin-top: 160px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6%;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,orange,tomato);
+    border-image-slice: 1;
+}
+.border-part{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+
+/* footer part  */
+footer{
+    text-align: center;
 }
