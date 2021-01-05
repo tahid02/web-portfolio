@@ -18,6 +18,7 @@ h3{
 
 .half-width img {
     width: 100%;
+    margin-top: 25%;
 }
 /* background of top section */
 .top-banner{
@@ -54,6 +55,9 @@ section{
 
 /* second section styling start */
 
+.dream-area .media-visible{
+   display: none;
+}
 .dream-area {
     margin-top: 120px;
     background-image: url("images/dream-bg.png");
@@ -81,7 +85,7 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
-    height: 60%;
+    height: auto;
     padding: 20px;
     box-sizing: border-box;
     border-left: 5px solid;
@@ -100,12 +104,18 @@ footer{
     text-align: center;
     position: relative;
     bottom: 0;
+    /* word-wrap: break-word; */
 }
 
 @media (max-width:680px){
     
 
-   
+    .dream-area .media-visible{
+        display: block;
+     }
+     .dream-area .media-notvisible{
+        display: none;
+     }
     .half-width{
         width: 95%;
         height: auto;
@@ -113,8 +123,9 @@ footer{
         text-align: center;
     }
     .half-width img {
-        width: 50%;
-
+        width: 60%;
+        margin-left: -12%;
+        margin-top: 4%;
     }
     .link-button{
         margin-left: 8%;
@@ -131,5 +142,25 @@ footer{
     .half-width{
         width: 100%;
         height: auto;
+    }
+    .link-button{
+        margin-left: -10%;
+        margin-bottom: 7%;
+    }
+    .dream-area .half-width .link-button{
+        margin-left: -10%;
+    }
+    .half-width img {
+        width: 60%;
+        margin-left: -17%;
+        margin-top: 4%;
+    }
+    @media (max-width:190px){
+        footer{
+            position: relative;
+            height: auto;
+            word-wrap: break-word;
+
+        }
     }
 }
